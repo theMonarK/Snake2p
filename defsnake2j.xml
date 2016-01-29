@@ -1,0 +1,23 @@
+<xml>
+	<carte>
+		<forme>rectangulaire</forme><!-- Choix de la forme de la carte -->
+		<triangulaire x1="20" y1="10" x2="25" y2="40" x3="40" y3="10">
+		</triangulaire>
+		<rectangulaire hauteur="30" largeur="50" ></rectangulaire>
+		<croix longueurcote="40" ></croix>
+	</carte>
+	<joueurs>
+		<joueur1>
+			<couleur>rouge</couleur><!--couleurs possibles : bleu, rouge, vert, jaune, orange, violet. -->
+			<nom>khaaaaaa</nom>
+		</joueur1>
+		<joueur2>
+			<couleur>bleu</couleur>
+			<nom>PLO</nom>
+		</joueur2>
+	</joueurs>
+	<vitessejeu vitessejeu="50"><!-- choix de la vitesse de déplacement des deux snake-->
+	</vitessejeu>
+	<finjeu finjeu="15"><!-- choix du score a atteidre pour gagner -->
+	</finjeu>
+</xml>
